@@ -51,7 +51,7 @@ class HandleRecords{
         print("Displaying only iOS employees")
         for index in 0..<employeeArray.count {
             if employeeArray[index].department == deptt{
-                print(employeeArray)
+                print(employeeArray[index])
             }
         }
     }
